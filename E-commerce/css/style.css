@@ -1,0 +1,49 @@
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    display: inline;
+    padding: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+#product{
+    display: flex;
+    justify-content: space-around;
+}
+.product{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.product p{
+    color: red;
+    font-weight: 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+
+}
